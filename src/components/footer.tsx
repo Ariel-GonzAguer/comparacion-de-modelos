@@ -1,18 +1,9 @@
 export const Footer = () => {
   return (
-    <footer className="p-6 lg:fixed lg:bottom-0 lg:left-0">
-      <div>
-        visit{' '}
-        <a
-          href="https://waku.gg/"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-4 inline-block underline"
-        >
-          waku.gg
-        </a>{' '}
-        to learn more
-      </div>
+    <footer className="border-t border-gray-100 px-6 py-8 text-center">
+      Creado con <a href="https://waku.gg/" className="underline text-red-600 hover:text-red-800" target="_blank" rel="noreferrer">Waku</a>
+      {' • '}
+      Por <a href="https://gatorojolab.com/" className="underline text-red-600 hover:text-red-800" target="_blank" rel="noreferrer">Gato Rojo Lab</a>
     </footer>
   );
 };

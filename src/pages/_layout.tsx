@@ -21,7 +21,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         precedence="font"
       />
       <Header />
-      <main className="m-6 flex items-center *:min-h-64 *:min-w-64 lg:m-0 lg:min-h-svh lg:justify-center">
+      <main className="mx-auto min-h-svh max-w-5xl px-6 py-12">
         {children}
       </main>
       <Footer />
@@ -31,7 +31,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
 
 const getData = async () => {
   const data = {
-    description: 'An internet website!',
+    description: 'Benchmark de modelos de IA generando código frontend. Misma feature, mismo prompt, mismos criterios.',
     icon: '/images/favicon.png',
   };
 

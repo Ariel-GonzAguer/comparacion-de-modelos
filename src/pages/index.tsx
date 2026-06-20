@@ -10,7 +10,7 @@ const scenarios = [
     models: 3,
     href: '/articles',
   },
-];
+] as const;
 
 export default async function HomePage() {
   const data = await getData();
