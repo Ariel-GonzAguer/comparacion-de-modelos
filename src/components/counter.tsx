@@ -12,7 +12,7 @@ export const Counter = () => {
       <div>Count: {count}</div>
       <button
         onClick={handleIncrement}
-        className="rounded-xs bg-black px-2 py-0.5 text-sm text-white"
+        className="rounded-xs bg-black px-2 py-0.5  text-white"
       >
         Increment
       </button>

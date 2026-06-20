@@ -12,7 +12,8 @@ import type { getConfig as File_Index_getConfig } from './pages/index';
 type Page =
 | ({ path: '/about' } & GetConfigResponse<typeof File_About_getConfig>)
 | { path: '/articles'; render: 'static' }
-| ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>);
+| ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
+| { path: '/pruebas'; render: 'static' };
 
 // prettier-ignore
 declare module 'waku/router' {

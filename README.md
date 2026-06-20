@@ -53,6 +53,6 @@ Este repo está pensado para clonar/fork y correr localmente — no está deploy
 
 ### Contexto de ejecución
 
-- Herramienta: `opencode 1.17.8` (modo zen)
+- Herramienta: `opencode`
 - MCPs activos: context7, engram, zustand
 - Plugin: RTK
