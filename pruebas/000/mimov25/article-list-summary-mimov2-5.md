@@ -1,15 +1,15 @@
-# TypeScript compila sin errores
+TypeScript compila sin errores
 
 ## Archivos creados
 
-- `src/lib/articles.ts`
+- `src/lib/articles-mimov2-5.ts`
   - Contiene el tipo `Article`
   - Datos de ejemplo
   - Dos helpers:
     - `getTagCounts` — retorna un `Map<string, number>` con tags únicos y su cantidad.
     - `filterArticles` — filtra por query (case-insensitive sobre `title`, `summary`, `tags`) y tag exacto, ordena por fecha descendente.
 
-- `src/components/article-list.tsx`
+- `src/components/article-list-mimov2-5.tsx`
   - Componente `'use client'` con estado local (`query`, `selectedTag`)
   - Todo el filtrado y ordenamiento corre en el cliente vía `useMemo`
 
