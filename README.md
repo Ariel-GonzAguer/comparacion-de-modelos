@@ -38,18 +38,32 @@ Este repo está pensado para clonar/fork y correr localmente — no está deploy
 
 ---
 
-### Criterios de evaluación
+### Checklist por modelo
 
-| Criterio                     | Puntos |
-| ---------------------------- | ------ |
-| Funcionalidad                | 15     |
-| TypeScript correcto          | 8      |
-| Accesibilidad                | 8      |
-| Simplicidad y mantenibilidad | 7      |
-| UX y estados vacíos          | 5      |
-| Calidad de explicación       | 4      |
-| No se sale del alcance       | 3      |
-| **Total**                    | **50** |
+| Criterio                          | Estado   |
+| --------------------------------- | -------- |
+| Entregó solo la feature pedida    | sí / no  |
+| Ordena por fecha descendente      | sí / no  |
+| Búsqueda funciona                 | sí / no  |
+| Filtro por tag funciona           | sí / no  |
+| Contadores de tags correctos      | sí / no  |
+| Botón limpiar funciona            | sí / no  |
+| Estado vacío presente             | sí / no  |
+| TypeScript sin errores obvios     | sí / no  |
+| Accesibilidad básica correcta     | sí / no  |
+
+### Puntuación
+
+| Criterio                     | Puntaje máximo |
+| ---------------------------- | -------------- |
+| Funcionalidad                | 15             |
+| TypeScript                   | 8              |
+| Accesibilidad                | 8              |
+| Mantenibilidad               | 7              |
+| UX                           | 5              |
+| Explicación                  | 4              |
+| Alcance                      | 3              |
+| **Total**                    | **50**         |
 
 ### Contexto de ejecución
 

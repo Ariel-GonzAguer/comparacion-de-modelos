@@ -11,8 +11,8 @@ import type { getConfig as File_Index_getConfig } from './pages/index';
 // prettier-ignore
 type Page =
 | ({ path: '/about' } & GetConfigResponse<typeof File_About_getConfig>)
-| { path: '/articles'; render: 'static' }
 | ({ path: '/' } & GetConfigResponse<typeof File_Index_getConfig>)
+| { path: '/pruebas/articles'; render: 'static' }
 | { path: '/pruebas'; render: 'static' };
 
 // prettier-ignore

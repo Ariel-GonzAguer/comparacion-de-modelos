@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import articles from '../lib/articles-codestral-2508';
+import articles from '../../lib/000/articles-codestral-2508';
 
 type Article = {
   slug: string;

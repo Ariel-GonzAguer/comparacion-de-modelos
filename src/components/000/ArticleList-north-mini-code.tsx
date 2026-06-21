@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import { articles } from '../lib/articles-north-mini-code';
-import '../styles/ArticleList-north-mini-code.css';
+import { articles } from '../../lib/000/articles-north-mini-code';
+import '../../styles/ArticleList-north-mini-code.css';
 
 type ArticleListProps = {
   className?: string;

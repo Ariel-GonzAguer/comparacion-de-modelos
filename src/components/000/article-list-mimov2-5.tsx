@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useCallback } from 'react';
 
-import { type Article, articles, filterArticles, getTagCounts } from '../lib/articles-mimov2-5';
+import { type Article, articles, filterArticles, getTagCounts } from '../../lib/000/articles-mimov2-5';
 
 const tagCounts = getTagCounts(articles);
 const allTags = Array.from(tagCounts.entries()).sort((a, b) => b[1] - a[1]);
